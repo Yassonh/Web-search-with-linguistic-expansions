@@ -1,0 +1,39 @@
+Here are the steps on how to run the Installation.py:
+
+Open a terminal or command prompt.
+
+Navigate to the directory where the Installation.py file is located.
+
+Run the following command: python Installation.py
+
+This will open a window called NLTK Downloader.
+
+Near the top of the downloader, go to "All Packages".
+
+Scroll through and download the following packages:
+
+omw-1.4 (Open Multilingual Wordnet)
+
+punkt (Punkt Tokenizer Models)
+
+stopwords (Stopwords Corpus)
+
+wordnet (WordNet)
+
+After everything has downloaded, close the downloader.
+// -----------------------------------------------------------------------
+
+Run the following command to start the search engine with WordNet: python main.py
+
+You might need to install the modules for whatever IDE you are trying to run this on like matplotlib, etc.
+
+If you are trying to run this on macOS, you might get certificate errors. To fix this, follow the steps below:
+
+Open a terminal or command prompt.
+
+Navigate to the directory where the Installation.py file is located.
+
+Run the following command: export PYTHONHTTPSVERIFY=0
+
+
+
